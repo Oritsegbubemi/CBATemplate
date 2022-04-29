@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CBATemplate.Core\CBATemplate.Core.csproj" />
+    <ProjectReference Include="..\CBATemplate.Data\CBATemplate.Data.csproj" />
+  </ItemGroup>
+
+</Project>
